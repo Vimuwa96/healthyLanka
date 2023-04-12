@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+div {
+  display: flex;
+  list-style-type: none;
+  padding: 5px;
+}
+
+li a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+
+li a {
+  padding-left: 25px;
+  color: white;
+  transition: 0.5s;
+}
+
+li a:hover {
+  color: green;
+}
+
+.list li a {
+  color: rgb(245, 245, 245);
+  transition: 0.5s;
+}
+
+.list li a:hover {
+    color: rgb(1, 1, 1);
+    
+  }
+
+#navbar {
+  background-color: rgb(47, 108, 15);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cart li {
+  padding-right: 10px;
+  border-radius: 50%;
+}
+
+.cart li a {
+  height: 40px;
+  padding: 8px;
+  background-color: rgb(252, 252, 252);
+  border-radius: 50%;
+}
+
+.small img {
+
+  height: 50px;
+  position: relative;
+}
+
+#toddler img{
+    margin: 5px;
+    position:absolute;
+    padding-left: 150px;
+    top: 0;
+
+}
+
+.navbar-brand a img{
+    margin: 10px;
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    background-color: white;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.navbar-brand a{
+    text-decoration: none;
+    color: white;
+    padding-left:50%;
+}
+
+.total{
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.btn-close{
+    background-color: black;
+}

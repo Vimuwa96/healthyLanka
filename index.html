@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Healthy Lanka Products</title>
+
+    <link rel="icon" type="image/x-icon" href="icons/logo.png">
+
+
+    <!-- Extenal CSS -->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="navbar.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+
+    <!-- Top Menu Start -->
+    <div class="container-fluid bg-dark" id="mainnav">
+        
+      <div class="mx-auto">
+        
+        <li><a href="">Track my Order</a></li>
+        <li><a href="">Store Location</a></li>
+        <li><a href="">Login</a></li>
+        <li><a href="">Register</a></li>
+      </div>
+    </div>
+
+     <!-- Top Menu End -->
+
+     <!-- Main Manu Start -->
+    <div class="navbar container-fluid" id="navbar">
+      <div class="navbar-brand">
+        <a href=""><img src="icons/logo.png" alt="" style="height: 120px" /></a>
+      </div>
+
+      <div class="small">
+        <a
+          href=""
+          class="closebtn me-auto d-block d-sm-none"
+          type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"
+          id="toddler"
+        >
+          <img src="icons/menu.png" alt=""
+        /></a>
+
+        
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title text-center" id="offcanvasScrollingLabel">Menu</h5>
+              <a href type="button" class="close" data-bs-dismiss="offcanvas" aria-label="Close"><img src="icons/back-button.png" alt=""></a>
+            </div>
+            <div class="offcanvas-body bg-success">
+                <div class="list me-auto">
+                    <li><a href="" >Home</a></li>
+                    <li><a href="" >Highland Products</a></li>
+                    <li><a href="" >About us</a></li>
+                  </div>
+            </div>
+          </div>
+
+      </div>
+      <div class="list mx-auto">
+        <li><a href="" class="d-none d-sm-block">Home</a></li>
+        <li><a href="" class="d-none d-sm-block">Highland Products</a></li>
+        <li><a href="" class="d-none d-sm-block">About us</a></li>
+      </div>
+
+      <div class="cart">
+        <li>
+          <a href="" class="position-relative"
+            ><img src="icons/shopping-bag (2).png" alt="" />
+            <span
+              class="position-absolute top-25 start-100 translate-middle badge rounded-pill bg-dark"
+            >
+              1
+            </span>
+          </a>
+          
+        </li>
+        <div class="total">
+            1500.00 LKR
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Menu End -->
+
+    <div class="section" style="height: 200vh"></div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="navbar.js"></script>
+  </body>
+</html>
