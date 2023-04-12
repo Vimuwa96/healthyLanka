@@ -57,8 +57,11 @@ li a:hover {
   border-radius: 50%;
 }
 
-.small img {
 
+.cart li a img{
+  width: 160px;
+}
+.small img {
   height: 50px;
   position: relative;
 }
@@ -98,3 +101,8 @@ li a:hover {
 .btn-close{
     background-color: black;
 }
+
+.offcanvas-body{
+  background-color: rgb(47, 108, 15);
+}
+
