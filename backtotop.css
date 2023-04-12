@@ -1,0 +1,7 @@
+.back-to-top {
+    background-color: blue;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
