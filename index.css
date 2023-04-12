@@ -52,9 +52,6 @@ li a:hover {
   border-radius: 50%;
 }
 
-.cart li a img {
-  width: auto;
-}
 .small img {
   height: 50px;
   position: relative;
