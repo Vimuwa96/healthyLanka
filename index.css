@@ -43,14 +43,11 @@ li a:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-
 .cart li a {
-  height: 40px;
-  width: 40px;
   padding: 8px;
   background-color: rgb(252, 252, 252);
   border-radius: 50%;
-}
+} 
 
 .small img {
   height: 50px;
